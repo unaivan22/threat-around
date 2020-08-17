@@ -18,7 +18,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.search, // event_note
+        CustomIcons.message, // event_note
       ),
       title: Text(
         "Message",
@@ -30,7 +30,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.bookmark_border, // grid_on 
+        CustomIcons.cloud_upload, // grid_on 
       ),
       title: Text(
         "Upload",
@@ -69,7 +69,7 @@ class Config {
   static BottomNavigationBar navigationBar = BottomNavigationBar(
     items: navigationBarItems,
     type: BottomNavigationBarType.fixed,
-    fixedColor: Hexcolor("#4EB152"),
+    fixedColor: Hexcolor("#1881FC"),
   );
 
 }
