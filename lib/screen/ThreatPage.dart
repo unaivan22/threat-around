@@ -31,7 +31,7 @@ SizedBox _buildCurrentStatusListView() {
     height: 150.0,
     child: 
     Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 4.0, vertical: 4.0),
+          padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
           child: InkWell(
             onTap: () {                          
             // Navigator.push(
@@ -51,7 +51,7 @@ SizedBox _buildCurrentStatusListView() {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
-              padding: EdgeInsets.only(top: 20.0, right: 20.0, bottom: 5.0, left: 5.0),
+              padding: EdgeInsets.only(top: 20.0, right: 20.0, bottom: 5.0, left: 10.0),
               child: Row(
                 // crossAxisAlignment: CrossAxisAlignment.center,
                 // textBaseline: TextBaseline.ideographic,
@@ -76,7 +76,7 @@ SizedBox _buildCurrentStatusListView() {
                         Padding(
                           padding: EdgeInsets.only(top:15),
                         ),
-                        Text("Jl. Kelapa, Sukolilo, Jiwan, Madiun",
+                        Text("Jl Tunjungan No. 1 Surabaya Jawa Timur",
                           overflow: TextOverflow.ellipsis,
                           style: new TextStyle(
                             fontSize: 11.0,
