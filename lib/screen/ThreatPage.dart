@@ -76,7 +76,7 @@ SizedBox _buildCurrentStatusListView() {
                         Padding(
                           padding: EdgeInsets.only(top:15),
                         ),
-                        Text("Jl Tunjungan No. 1 Surabaya Jawa Timur",
+                        Text("Kearney Ave Memphis, TN 38111, USA",
                           overflow: TextOverflow.ellipsis,
                           style: new TextStyle(
                             fontSize: 11.0,
@@ -137,7 +137,7 @@ Widget _buildThreatArroundListView() {
               new Text("See All",
                 style: 
                 new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold,
-                  color: Hexcolor('##2FC7F5')
+                  color: Hexcolor('#2FC7F5')
                   ),
               ),
             ]

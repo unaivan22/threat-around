@@ -19,8 +19,8 @@ class App extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
         primaryColor: Colors.white,
         primaryTextTheme: TextTheme(
-          headline: TextStyle(
-            color: Colors.green,
+          headline6: TextStyle(
+            // color: Colors.green,
             fontSize: 16.0
           )
         )

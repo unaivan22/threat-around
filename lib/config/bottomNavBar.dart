@@ -6,10 +6,10 @@ class Config {
   static List<BottomNavigationBarItem> navigationBarItems = [
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.business_center,
+        CustomIcons.warning_empty
       ),
       title: Text(
-        "Threat",
+        "Threats",
         style: new TextStyle(
           fontSize: 12.0,
           // color: Colors.yellow,
@@ -18,7 +18,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.message, // event_note
+        CustomIcons.comment // event_note
       ),
       title: Text(
         "Message",
@@ -30,7 +30,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.cloud_upload, // grid_on 
+        CustomIcons.plus, // grid_on 
       ),
       title: Text(
         "Upload",
@@ -42,7 +42,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.notifications_none,
+        CustomIcons.bell,
       ),
       title: Text(
         "Notification",
@@ -54,7 +54,7 @@ class Config {
     ),
     BottomNavigationBarItem(
       icon: Icon(
-        CustomIcons.person_outline,
+        CustomIcons.user_outline,
       ),
       title: Text(
         "Profile",
@@ -69,7 +69,7 @@ class Config {
   static BottomNavigationBar navigationBar = BottomNavigationBar(
     items: navigationBarItems,
     type: BottomNavigationBarType.fixed,
-    fixedColor: Hexcolor("#1881FC"),
+    fixedColor: Hexcolor("#2FC7F5"),
   );
 
 }
